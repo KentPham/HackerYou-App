@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.show-border {
+    border: blue 3px solid;
+}
+
+.push-center {
+    align-items: center;
+}
+
+.App {
+    text-align: center;
+    background-color: white;
+}
+
+/*********************************
+************ FOOTER **************
+*********************************/
+
+.footer-container {
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
+.social-logo {
+    height: 35px;
+    width: 35px;
+}
+
+/*********************************
+********* MOVIE DISPLAY **********
+*********************************/
+
+.scroller-container {
+    margin: auto;
+    padding: 0px 0px;
+    align-items: center;
+}
+
+.movie-scroller {
+    margin: auto;
+}
+
+.selection-container {
+    height: 300px;
+    width: 200px;
+}
+
+.slider-wrapper {
+    position: relative;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.text-poster-container {
+    align-items: center;
+}
+
+/*********************************
+************* MOVIE **************
+*********************************/
+
+.movie-container {
+    margin: auto;
+    padding: 25px 0px;
+    width: 75%;
+    max-width: 1000px;
+}
+
+.description-title {
+    margin-top: 100px;
+    text-align: left;
+}
+
+.description-container {
+    margin: auto;
+    text-align: left;
+}
+
+.poster-container {
+    height: XYpx;
+    width: XYpx;
+    align-self: center;
+}
+
+.info-container {
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+/*********************************
+************* HOME ***************
+*********************************/
+
+.home-description {
+    Padding: 25px 0px;
+}
+
+.contact-description {
+    Padding: 25px 0px;
+    text-align: left;
+}
